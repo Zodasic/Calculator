@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   font-family: Gotham Rounded, sans-serif;
   font-weight: normal;
@@ -7,7 +9,7 @@
 body {
   padding: 0;
   margin: 0;
-  background: linear-gradient(to right, #001b34, #ff00c8);
+  background-image: linear-gradient(236deg, #74ebd5, #acb6e5);
 }
 
 .calculator-grid {
@@ -19,7 +21,7 @@ body {
   grid-template-rows: minmax(120px, auto) repeat(5, 100px);
 }
 
-.calculator-grid > button {
+.calculator-grid>button {
   cursor: pointer;
   font-size: 2rem;
   border: 1px solid rgba(255, 255, 255, 0.795);
@@ -27,7 +29,7 @@ body {
   background-color: rgba(255, 255, 255, .75);
 }
 
-.calculator-grid > button:hover {
+.calculator-grid>button:hover {
   background-color: rgba(255, 255, 255, .9);
 }
 
